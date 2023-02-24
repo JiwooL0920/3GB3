@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6193b673189c346fc80b2781a4de8585, type: 3}
-  m_Name: New Enemy Profile
+  m_Name: Enemy Profile
   m_EditorClassIdentifier: 
   health: 1
   charmHealth: 100000
   EnemyVisual: {fileID: 0}
-  enemyAttacks: []
+  enemyAttacks:
+  - {fileID: 3631518037653736830, guid: 6abefe859ce9940d6aad48c184b13d1e, type: 3}
