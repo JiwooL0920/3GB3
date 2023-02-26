@@ -8,6 +8,7 @@ using UnityEngine;
 public class Speaker : ScriptableObject
 {
  	[SerializeField] private string speakerName;
+	[SerializeField] private Sprite speakerSprite;
 
 
 

@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50a73d9228d4e447c85b5712a8b44242, type: 3}
   m_Name: Tyra
   m_EditorClassIdentifier: 
-  speakerName: 
+  speakerName: Tyra
+  speakerSprite: {fileID: 21300000, guid: 9332cde15b957314a8d1d0fd65d67635, type: 3}
