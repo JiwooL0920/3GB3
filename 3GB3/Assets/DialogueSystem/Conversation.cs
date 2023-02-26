@@ -1,18 +1,22 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 
-public class Conversation : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+[CreateAssetMenu(fileName = "New Conversation", menuName = "Dialogue/New Conversation")]
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+public class Conversation : ScriptableObject
+{
+	[SerializeField] private DialogueLine[] allLines;
+
+
+	public DialogueLine GetLineByIndex(int index)
+	{
+		return allLines[index];
+	}
+
+
+	public int GetLength()
+	{
+		return allLines.Length - 1;
+	}
+	
 }
