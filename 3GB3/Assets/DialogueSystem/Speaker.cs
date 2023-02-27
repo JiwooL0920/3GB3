@@ -17,5 +17,9 @@ public class Speaker : ScriptableObject
 		return speakerName;
 	}
 
+	public Sprite GetSprite()
+    {
+		return speakerSprite;
+    }
 
 }

@@ -43,8 +43,13 @@ public class DialogueManager : MonoBehaviour
 	}
 	public void ReadNext()
     {
+		if(currentIndex > currentConvo.GetLength())
+        {
+			return;
+        }
 		speakerName.text = currentConvo.GetLineByIndex(currentIndex).speaker.GetName();
 		dialogue.text = currentConvo.GetLineByIndex(currentIndex).dialogue;
+		speakerSprite.sprite = currentConvo.GetLineByIndex(currentIndex).speaker.GetSprite();
 		currentIndex++;
     }
 
