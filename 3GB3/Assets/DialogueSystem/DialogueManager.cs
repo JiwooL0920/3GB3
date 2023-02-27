@@ -11,6 +11,7 @@ using TMPro;
 public class DialogueManager : MonoBehaviour
 {
 	public TextMeshProUGUI speakerName, dialogue, navButtonText;
+	public Image speakerSprite;
 
 	private int currentIndex;
 	private Conversation currentConvo;
@@ -35,6 +36,7 @@ public class DialogueManager : MonoBehaviour
 		instance.currentConvo = convo;
 		instance.speakerName.text = "";
 		instance.dialogue.text = "";
+		
 		instance.navButtonText.text = ">";
 
 		instance.ReadNext();
