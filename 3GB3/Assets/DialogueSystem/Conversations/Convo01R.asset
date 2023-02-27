@@ -10,14 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5ca6008e2f05d4d4581bb4d26e010a00, type: 3}
-  m_Name: Convo02D
+  m_Name: Convo01R
   m_EditorClassIdentifier: 
   allLines:
-  - speaker: {fileID: 11400000, guid: 8153d40418eaf488cbc6f4e971be9516, type: 2}
-    dialogue: 'Good morning Tyra. What''s new?
-
-'
+  - speaker: {fileID: 11400000, guid: f20f2b8e26c3140508196cef32807786, type: 2}
+    dialogue: Another good day, Tyra. Ready for a new day of challenges?
   - speaker: {fileID: 11400000, guid: 221e6c0c29ce243f8963cb558f547b53, type: 2}
-    dialogue: 'Nothing special, I should go to work.
-
-'
+    dialogue: "(\u2026)"
+  - speaker: {fileID: 11400000, guid: f20f2b8e26c3140508196cef32807786, type: 2}
+    dialogue: Your colleague is A today, let's start today's work.
