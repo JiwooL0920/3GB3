@@ -17,6 +17,7 @@ public class LoadScene: MonoBehaviour
     public void LoadRoad()
     {
         SceneManager.LoadScene("Road");
+        // player = GameObject.FindGameObjectWithTag("player").GetComponent<Transform>();
     }
 
 }
