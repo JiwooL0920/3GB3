@@ -764,8 +764,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45ec0a4e252184e98a3398077156d5c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FollowSpeed: 2
-  yOffset: 1
+  cameraSpeed: 2
+  offset_y: 1
   target: {fileID: 2137299231}
 --- !u!1 &705091831
 GameObject:
@@ -1483,7 +1483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07a9b3d4186df4b9a8743109c08693e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 2137299233}
+  rigidBody: {fileID: 2137299233}
   groundCheck: {fileID: 17528773}
   groundLayer:
     serializedVersion: 2
