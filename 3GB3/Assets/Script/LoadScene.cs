@@ -11,7 +11,7 @@ public class LoadScene: MonoBehaviour
 
     public void LoadRoom()
     {
-        SceneManager.LoadScene("Room");
+        SceneManager.LoadScene("Room_afterwork");
     }
 
     public void LoadRoad()

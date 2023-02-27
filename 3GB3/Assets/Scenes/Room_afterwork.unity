@@ -1156,7 +1156,7 @@ GameObject:
   - component: {fileID: 1555415600}
   - component: {fileID: 1555415603}
   m_Layer: 5
-  m_Name: Button_Cat
+  m_Name: Button_Cat2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1289,7 +1289,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9952fbc96fa7a4235bdbd0f44ed4d8b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  convo: {fileID: 11400000, guid: 79e86cdfd2a0a4a33977dcd1271cae58, type: 2}
+  convo: {fileID: 11400000, guid: fcefc6b225f9a48b4bc68a0ab38d49be, type: 2}
 --- !u!1 &1606252791
 GameObject:
   m_ObjectHideFlags: 0
@@ -1391,7 +1391,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
+  m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -1639,7 +1639,7 @@ GameObject:
   - component: {fileID: 2074874647}
   - component: {fileID: 2074874650}
   m_Layer: 5
-  m_Name: Button_Derek
+  m_Name: Button_Derek2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1772,7 +1772,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9952fbc96fa7a4235bdbd0f44ed4d8b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  convo: {fileID: 11400000, guid: 61a3a213da96a4dc1af50e6a7e933412, type: 2}
+  convo: {fileID: 11400000, guid: 043d4d1a080e44b5297632f90a57d463, type: 2}
 --- !u!1 &2089380937
 GameObject:
   m_ObjectHideFlags: 0
