@@ -5,8 +5,8 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private float horizontal;
-    private float speed = 8f;
-    private float jumpingPower = 16f;
+    private float speed = 9f;
+    private float jumpingPower = 15f;
     private bool faceRight = true;
 
     [SerializeField] private Rigidbody2D rigidBody;
@@ -32,7 +32,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rigidBody.velocity = new Vector2(horizontal * speed, rigidBody.velocity.y);
+        rigidBody.velocity = new Vector2(speed * horizontal, rigidBody.velocity.y);
     }
 
     private bool IsGrounded()
