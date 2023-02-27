@@ -16,7 +16,7 @@ public class LoadScene: MonoBehaviour
 
     public void LoadRoad()
     {
-        SceneManager.LoadScene("Home");
+        SceneManager.LoadScene("Road");
     }
 
 }
