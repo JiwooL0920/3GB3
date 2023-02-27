@@ -13,4 +13,10 @@ public class LoadScene: MonoBehaviour
     {
         SceneManager.LoadScene("Room");
     }
+
+    public void LoadRoad()
+    {
+        SceneManager.LoadScene("Home");
+    }
+
 }
