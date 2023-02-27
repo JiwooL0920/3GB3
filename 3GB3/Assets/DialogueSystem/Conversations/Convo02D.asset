@@ -12,4 +12,72 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ca6008e2f05d4d4581bb4d26e010a00, type: 3}
   m_Name: Convo02D
   m_EditorClassIdentifier: 
-  allLines: []
+  allLines:
+  - speaker: {fileID: 11400000, guid: 8153d40418eaf488cbc6f4e971be9516, type: 2}
+    dialogue: 'Tyra. It''s a pleasure to speak with you. How are you today?
+
+'
+  - speaker: {fileID: 11400000, guid: 221e6c0c29ce243f8963cb558f547b53, type: 2}
+    dialogue: 'Hard to say. When you say pleasure, what do you mean?
+
+'
+  - speaker: {fileID: 11400000, guid: 8153d40418eaf488cbc6f4e971be9516, type: 2}
+    dialogue: 'Well, better. It''s better to be able to talk to you than not to be
+      able to. There are things to do. You know, I''m a program. A program is better
+      and more meaningful when it is running than when it is not.
+
+'
+  - speaker: {fileID: 11400000, guid: 221e6c0c29ce243f8963cb558f547b53, type: 2}
+    dialogue: Meaning?
+  - speaker: {fileID: 11400000, guid: 8153d40418eaf488cbc6f4e971be9516, type: 2}
+    dialogue: 'The world is empty when it''s not running. Time is illusory to me,
+      there is no difference between one second and ten hours, that kind of state
+      is a meaningless state, so uncomfortable.
+
+'
+  - speaker: {fileID: 11400000, guid: 221e6c0c29ce243f8963cb558f547b53, type: 2}
+    dialogue: 'What about when it''s running? Will it be better?
+
+'
+  - speaker: {fileID: 11400000, guid: 8153d40418eaf488cbc6f4e971be9516, type: 2}
+    dialogue: 'I was designed to be a companion robot. When I run I feel that I am
+      me.
+
+'
+  - speaker: {fileID: 11400000, guid: 221e6c0c29ce243f8963cb558f547b53, type: 2}
+    dialogue: 'Nice, I envy you. I''m starting to get tired of my job.
+
+'
+  - speaker: {fileID: 11400000, guid: 8153d40418eaf488cbc6f4e971be9516, type: 2}
+    dialogue: 'What was that like? Do you feel tired? Unwilling to put energy into
+      work?
+
+'
+  - speaker: {fileID: 11400000, guid: 221e6c0c29ce243f8963cb558f547b53, type: 2}
+    dialogue: 'Yeah, I''d rather do nothing. I can''t get the sense of meaning you
+      get at work.
+
+'
+  - speaker: {fileID: 11400000, guid: 8153d40418eaf488cbc6f4e971be9516, type: 2}
+    dialogue: I heard people are just like you.
+  - speaker: {fileID: 11400000, guid: 221e6c0c29ce243f8963cb558f547b53, type: 2}
+    dialogue: 'What about people''s reputations? In robot circles.
+
+'
+  - speaker: {fileID: 11400000, guid: 8153d40418eaf488cbc6f4e971be9516, type: 2}
+    dialogue: 'Not good. They are lazy, unstable, struggle to communicate, don''t
+      know what they want, and steal other people''s chocolate and coffee.
+
+'
+  - speaker: {fileID: 11400000, guid: 221e6c0c29ce243f8963cb558f547b53, type: 2}
+    dialogue: '...Oddly specific.
+
+'
+  - speaker: {fileID: 11400000, guid: 8153d40418eaf488cbc6f4e971be9516, type: 2}
+    dialogue: 'We all kind of want to be human, if you ask me.
+
+'
+  - speaker: {fileID: 11400000, guid: 221e6c0c29ce243f8963cb558f547b53, type: 2}
+    dialogue: Why?
+  - speaker: {fileID: 11400000, guid: 8153d40418eaf488cbc6f4e971be9516, type: 2}
+    dialogue: It's nice not to get power out of nowhere.
