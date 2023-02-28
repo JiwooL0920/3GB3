@@ -8,13 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Room.unity
     guid: 2d6d8a5a760800040bfdb7522c642550
-  - enabled: 1
-    path: Assets/Scenes/Road.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Combat.unity
     guid: a69a6be4fa6bc4f468d641169a5b878a
   - enabled: 1
     path: Assets/Scenes/Room_afterwork.unity
     guid: f19000dbb3a814e858e265df7d695739
+  - enabled: 1
+    path: Assets/Scenes/Road.unity
+    guid: a382b3b5f78944be6a0efaa55effad36
   m_configObjects: {}
