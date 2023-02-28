@@ -13,7 +13,7 @@ public class CameraScript  : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 newPos = new Vector3(target.position.x,target.position.y + offset_y,-10f);
+        Vector3 newPos = new Vector3(target.position.x,target.position.y + offset_y +100,-10f);
         transform.position = Vector3.Slerp(transform.position,newPos,cameraSpeed*Time.deltaTime);
     }
 }
