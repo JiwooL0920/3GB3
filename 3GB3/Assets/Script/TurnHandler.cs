@@ -22,6 +22,7 @@ public class TurnHandler : MonoBehaviour {
     public PlayerControl PlayerControl;
 
     void Start() {
+        Time.timeScale = 0;
         state = BattleState.START;
         enemyActed = false;
     }
@@ -72,6 +73,7 @@ public class TurnHandler : MonoBehaviour {
     }
 
     public void PlayerAct() {
+        Time.timeScale = 1f;
         PlayerFinish();
     }
 

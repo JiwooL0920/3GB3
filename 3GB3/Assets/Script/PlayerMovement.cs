@@ -1,6 +1,7 @@
 // Tutorial - https://www.youtube.com/watch?v=K1xZ-rycYY8&ab_channel=bendux
 
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -48,6 +49,25 @@ public class PlayerMovement : MonoBehaviour
             Vector3 localScale = transform.localScale;
             localScale.x *= -1f;
             transform.localScale = localScale;
+        }
+    }
+    
+    private void OnTriggerEnter2D(Collider2D other) {
+        if (other.gameObject.tag == "Enemy")
+        {
+            //If the GameObject has the same tag as specified, output this message in the console
+            Debug.Log("aaaaa");
+            SceneManager.LoadScene("Combat");
+        }
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
+        {
+            //If the GameObject has the same tag as specified, output this message in the console
+            Debug.Log("aaaaa");
+            SceneManager.LoadScene("Combat");
         }
     }
 }

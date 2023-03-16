@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour {
@@ -16,6 +17,6 @@ public class PlayerHealth : MonoBehaviour {
     }
 
     public void IsDie() {
-
+        SceneManager.LoadScene("Room_afterwork"); 
     }
 }
