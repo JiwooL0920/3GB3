@@ -9,6 +9,7 @@ public class Timer : MonoBehaviour
     public float WaitSec;
     private int WaitSecInt; 
     public TMPro.TMP_Text text;
+    public GameObject WinningScreen;
 
     private void FixedUpdate(){
         if (WaitSec > 0){
@@ -17,7 +18,7 @@ public class Timer : MonoBehaviour
             text.text =  WaitSecInt.ToString();
         }
         else{
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            WinningScreen.SetActive(true);
         }
     }
 }

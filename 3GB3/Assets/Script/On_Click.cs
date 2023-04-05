@@ -20,6 +20,7 @@ public class On_Click : MonoBehaviour
     public void Click(){
         questionPop.SetActive(true);
     }
+
     public void UnClick(){
         questionPop.SetActive(false);
     }

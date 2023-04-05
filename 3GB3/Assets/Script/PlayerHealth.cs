@@ -7,6 +7,7 @@ public class PlayerHealth : MonoBehaviour {
     public int health;
     public int maxHealth;
     public TMPro.TMP_Text uiPlayerHealth;
+    public GameObject OverScreen;
 
     public void OnHit(int dmg) {
         health-= dmg;
@@ -17,6 +18,7 @@ public class PlayerHealth : MonoBehaviour {
     }
 
     public void IsDie() {
-        SceneManager.LoadScene("Room_afterwork"); 
+       //SceneManager.LoadScene("Room_afterwork"); 
+        OverScreen.SetActive(true);
     }
 }
