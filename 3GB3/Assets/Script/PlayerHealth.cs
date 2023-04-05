@@ -8,6 +8,7 @@ public class PlayerHealth : MonoBehaviour {
     public int maxHealth;
     public TMPro.TMP_Text uiPlayerHealth;
     public GameObject OverScreen;
+    public GameObject WinningScreen;
 
     public void OnHit(int dmg) {
         health-= dmg;
@@ -19,6 +20,8 @@ public class PlayerHealth : MonoBehaviour {
 
     public void IsDie() {
        //SceneManager.LoadScene("Room_afterwork"); 
-        OverScreen.SetActive(true);
+       if (!WinningScreen.active){
+            OverScreen.SetActive(true);
+       }
     }
 }
