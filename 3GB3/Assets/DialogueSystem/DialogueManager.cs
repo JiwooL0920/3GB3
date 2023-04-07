@@ -1,8 +1,5 @@
-
 using UnityEngine;
-
 using UnityEngine.UI;
-
 using TMPro;
 using System.Collections;
 
@@ -19,6 +16,8 @@ public class DialogueManager : MonoBehaviour
 	private Conversation currentConvo;
 	private static DialogueManager instance;
 	private Animator anim;
+
+	
 	
 	private void Awake()
 	{
