@@ -18,4 +18,4 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: 221e6c0c29ce243f8963cb558f547b53, type: 2}
     dialogue: "(\u2026)"
   - speaker: {fileID: 11400000, guid: f20f2b8e26c3140508196cef32807786, type: 2}
-    dialogue: Your colleague is A today, let's start today's work.
+    dialogue: Your colleague is EnemyA today, let's start today's work.
