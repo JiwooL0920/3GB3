@@ -59,18 +59,20 @@ public class DialogueManager : MonoBehaviour
 	}
 	public void ReadNext()
     {
-		if(currentIndex > currentConvo.GetLength()-1)
+		if(currentConvo.haveChoice() && currentIndex > currentConvo.GetLength()-1)
 		{
+			
 			showChoices.enabled = true;
 			navButton.enabled = false;
 			//navButtonText.text = "X"
 			showChoicesText.text = "Show Choices";
 		}
-		if(currentIndex > currentConvo.GetLength())
+		if( currentIndex > currentConvo.GetLength())
         {
 			showChoices.enabled = true;
 			navButton.enabled = false;
 			instance.anim.SetBool("isOpen",false);
+			navButton.enabled = true;
 			return;
         }
 		speakerName.text = currentConvo.GetLineByIndex(currentIndex).speaker.GetName();

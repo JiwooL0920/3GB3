@@ -6,7 +6,7 @@ using UnityEngine;
 public class Conversation : ScriptableObject
 {
 	[SerializeField] private DialogueLine[] allLines;
-	//[SerializeField] private ChoiceLine[] allChoices;
+	[SerializeField] private ChoiceLine[] allChoices;
 
 	public DialogueLine GetLineByIndex(int index)
 	{
@@ -18,14 +18,14 @@ public class Conversation : ScriptableObject
 	{
 		return allLines.Length - 1;
 	}
-/*
+
 	public bool haveChoice()
 	{
-		return (allChoice.Length >0);
+		return (allChoices.Length>0);
 	}
 
-	public ChoiceLine GetAllChoices(){
+	public ChoiceLine GetAllChoices(int index){
 		return allChoices[index];
 	}
-	*/
+
 }
