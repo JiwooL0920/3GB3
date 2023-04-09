@@ -24,7 +24,7 @@ public class Conversation : ScriptableObject
 		return (allChoices.Length>0);
 	}
 
-	public ChoiceLine GetAllChoices(int index){
+	public ChoiceLine GetChoiceByIndex(int index){
 		return allChoices[index];
 	}
 

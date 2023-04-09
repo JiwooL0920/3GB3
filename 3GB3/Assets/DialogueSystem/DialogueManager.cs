@@ -14,7 +14,7 @@ public class DialogueManager : MonoBehaviour
 	public Button showChoices;
 	public Button navButton;
 
-
+	public TextMeshProUGUI choice1, choice2, choice3;
 
 	private int currentIndex;
 	private Conversation currentConvo;
@@ -54,11 +54,13 @@ public class DialogueManager : MonoBehaviour
 		
 		instance.navButtonText.text = ">";
 		
+		
 
 		instance.ReadNext();
 	}
 	public void ReadNext()
     {
+		
 		if(currentConvo.haveChoice() && currentIndex > currentConvo.GetLength()-1)
 		{
 			
@@ -66,6 +68,8 @@ public class DialogueManager : MonoBehaviour
 			navButton.enabled = false;
 			//navButtonText.text = "X"
 			showChoicesText.text = "Show Choices";
+
+			
 		}
 		if( currentIndex > currentConvo.GetLength())
         {
@@ -79,6 +83,13 @@ public class DialogueManager : MonoBehaviour
 		dialogue.text = currentConvo.GetLineByIndex(currentIndex).dialogue;
 		speakerSprite.sprite = currentConvo.GetLineByIndex(currentIndex).speaker.GetSprite();
 		currentIndex++;
+
+		if(currentConvo.haveChoice())
+		{
+			choice1.text = currentConvo.GetChoiceByIndex(0).choice;
+			choice2.text = currentConvo.GetChoiceByIndex(1).choice;
+			choice3.text = currentConvo.GetChoiceByIndex(2).choice;
+		}
 
 		if(currentIndex >= (int)currentConvo.GetLength())
 		{

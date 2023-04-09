@@ -2657,8 +2657,8 @@ MonoBehaviour:
   navButtonText: {fileID: 70065709}
   showChoicesText: {fileID: 0}
   speakerSprite: {fileID: 544715116}
-  showChoices: {fileID: 0}
-  navButton: {fileID: 0}
+  showChoices: {fileID: 777643070}
+  navButton: {fileID: 781445112}
 --- !u!95 &1615349980
 Animator:
   serializedVersion: 5

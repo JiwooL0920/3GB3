@@ -7,7 +7,7 @@ using UnityEngine;
 
 public class ChoiceLine
 {
-	public Speaker speaker;
+	
 	[TextArea]
 	public string choice;
 

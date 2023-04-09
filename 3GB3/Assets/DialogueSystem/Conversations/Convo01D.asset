@@ -21,7 +21,4 @@ MonoBehaviour:
     dialogue: 'Nothing special, I should go to work.
 
 '
-  - speaker: {fileID: 11400000, guid: 221e6c0c29ce243f8963cb558f547b53, type: 2}
-    dialogue: 'Nothing special, I should go to work.
-
-'
+  allChoices: []

@@ -20,6 +20,4 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: f20f2b8e26c3140508196cef32807786, type: 2}
     dialogue: Your colleague is EnemyA today, let's go to the road and start today's
       work. Be ready and good luck!
-  - speaker: {fileID: 11400000, guid: f20f2b8e26c3140508196cef32807786, type: 2}
-    dialogue: Your colleague is EnemyA today, let's go to the road and start today's
-      work. Be ready and good luck!
+  allChoices: []

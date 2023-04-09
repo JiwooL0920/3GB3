@@ -23,38 +23,15 @@ MonoBehaviour:
     dialogue: Calm.
   - speaker: {fileID: 11400000, guid: 4c221aa42dfc64f18b832fe1a31e3ba1, type: 2}
     dialogue: Doesn't the result of the game affect your mood?
-  - speaker: {fileID: 11400000, guid: 221e6c0c29ce243f8963cb558f547b53, type: 2}
-    dialogue: 'Same job every day. I experience this kind of fights every day, and
+  allChoices:
+  - choice: 'option1 Same job every day.
+
+'
+  - choice: 'option2 I experience this kind of winning and losing every day, and
       I gradually feel numb.
 
 '
-  - speaker: {fileID: 11400000, guid: 4c221aa42dfc64f18b832fe1a31e3ba1, type: 2}
-    dialogue: Nobody loves their work.
-  - speaker: {fileID: 11400000, guid: 221e6c0c29ce243f8963cb558f547b53, type: 2}
-    dialogue: 'Will there be other possibilities besides winning or losing? I mean,
-      maybe I can work on something else?
-
-'
-  - speaker: {fileID: 11400000, guid: 4c221aa42dfc64f18b832fe1a31e3ba1, type: 2}
-    dialogue: 'You mean to work at DCBW?
-
-'
-  - speaker: {fileID: 11400000, guid: 221e6c0c29ce243f8963cb558f547b53, type: 2}
-    dialogue: I don't know what kind of job that is, I've never met anyone from DCBW.
-  - speaker: {fileID: 11400000, guid: 4c221aa42dfc64f18b832fe1a31e3ba1, type: 2}
-    dialogue: 'The job of fighting game is very suitable for you, isn''t it? Your
-      work is also very smooth.
-
-'
-  - speaker: {fileID: 11400000, guid: 221e6c0c29ce243f8963cb558f547b53, type: 2}
-    dialogue: I probably don't have to do this job. I don't know what the meaning
-      of work is.
-  - speaker: {fileID: 11400000, guid: 4c221aa42dfc64f18b832fe1a31e3ba1, type: 2}
-    dialogue: "People need to work when they are alive. Your colleagues all work,
-      don\u2019t they?\n"
-  - speaker: {fileID: 11400000, guid: 221e6c0c29ce243f8963cb558f547b53, type: 2}
-    dialogue: "You\u2019re right."
-  - speaker: {fileID: 11400000, guid: 4c221aa42dfc64f18b832fe1a31e3ba1, type: 2}
-    dialogue: 'Touch me until you don''t think of this matter.
+  - choice: 'option3 I don''t know. I feel like I don''t need to put in all of my
+      energy at work, maybe my life can be changed.
 
 '
