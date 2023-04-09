@@ -18,3 +18,6 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: 221e6c0c29ce243f8963cb558f547b53, type: 2}
     dialogue: It's not the time for cats to wake up, but it's time for me to go to
       work.
+  - speaker: {fileID: 11400000, guid: 221e6c0c29ce243f8963cb558f547b53, type: 2}
+    dialogue: It's not the time for cats to wake up, but it's time for me to go to
+      work.

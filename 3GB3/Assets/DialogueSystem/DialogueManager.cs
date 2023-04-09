@@ -2,21 +2,25 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Collections;
+using System.Collections.Generic;
 
 
 
 
 public class DialogueManager : MonoBehaviour
 {
-	public TextMeshProUGUI speakerName, dialogue, navButtonText;
+	public TextMeshProUGUI speakerName, dialogue, navButtonText, showChoicesText;
 	public Image speakerSprite; 
+	public Button showChoices;
+	public Button navButton;
+
 
 
 	private int currentIndex;
 	private Conversation currentConvo;
 	private static DialogueManager instance;
 	private Animator anim;
-
+	
 	
 	
 	private void Awake()
@@ -26,6 +30,8 @@ public class DialogueManager : MonoBehaviour
 			instance = this;
 			anim = GetComponent<Animator>();
 			instance.anim.SetBool("isOpen", false);
+			showChoices.enabled = false;
+			navButton.enabled = true;
 		}
 		else
 		{
@@ -33,8 +39,12 @@ public class DialogueManager : MonoBehaviour
 		}
 	}
 
+
 	public static void StartConversation(Conversation convo)
 	{
+		//showChoices.enabled = false;
+		//navButton.enabled = true;
+
 		instance.anim.SetBool("isOpen", true);
 		Debug.Log("load");
 		instance.currentIndex = 0;
@@ -43,13 +53,23 @@ public class DialogueManager : MonoBehaviour
 		instance.dialogue.text = "";
 		
 		instance.navButtonText.text = ">";
+		
 
 		instance.ReadNext();
 	}
 	public void ReadNext()
     {
+		if(currentIndex > currentConvo.GetLength()-1)
+		{
+			showChoices.enabled = true;
+			navButton.enabled = false;
+			//navButtonText.text = "X"
+			showChoicesText.text = "Show Choices";
+		}
 		if(currentIndex > currentConvo.GetLength())
         {
+			showChoices.enabled = true;
+			navButton.enabled = false;
 			instance.anim.SetBool("isOpen",false);
 			return;
         }
@@ -58,11 +78,14 @@ public class DialogueManager : MonoBehaviour
 		speakerSprite.sprite = currentConvo.GetLineByIndex(currentIndex).speaker.GetSprite();
 		currentIndex++;
 
-		if(currentIndex >= currentConvo.GetLength())
+		if(currentIndex >= (int)currentConvo.GetLength())
 		{
 			//navButtonText.text = "X";
+			
 		}
     }
+
+	
 /*
 	private IEnumerator TypeText(string text)
 	{

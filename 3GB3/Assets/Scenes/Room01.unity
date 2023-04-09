@@ -2655,7 +2655,10 @@ MonoBehaviour:
   speakerName: {fileID: 1372956995}
   dialogue: {fileID: 1038431380}
   navButtonText: {fileID: 70065709}
+  showChoicesText: {fileID: 0}
   speakerSprite: {fileID: 544715116}
+  showChoices: {fileID: 0}
+  navButton: {fileID: 0}
 --- !u!95 &1615349980
 Animator:
   serializedVersion: 5
@@ -3470,7 +3473,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &1845602706
 AudioSource:
   m_ObjectHideFlags: 0
