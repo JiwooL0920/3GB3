@@ -1727,6 +1727,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   convo: {fileID: 11400000, guid: 61a3a213da96a4dc1af50e6a7e933412, type: 2}
+  navButton: {fileID: 0}
+  panel: {fileID: 0}
 --- !u!114 &1077761320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2498,6 +2500,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   convo: {fileID: 11400000, guid: 5e481d96ad816495da3df26425b8d61f, type: 2}
+  navButton: {fileID: 0}
+  panel: {fileID: 0}
 --- !u!114 &1569913317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2659,6 +2663,9 @@ MonoBehaviour:
   speakerSprite: {fileID: 544715116}
   showChoices: {fileID: 777643070}
   navButton: {fileID: 781445112}
+  choice1: {fileID: 0}
+  choice2: {fileID: 0}
+  choice3: {fileID: 0}
 --- !u!95 &1615349980
 Animator:
   serializedVersion: 5
@@ -3473,7 +3480,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &1845602706
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3639,6 +3646,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   convo: {fileID: 11400000, guid: 79e86cdfd2a0a4a33977dcd1271cae58, type: 2}
+  navButton: {fileID: 0}
+  panel: {fileID: 0}
 --- !u!114 &2080169579
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -29,10 +29,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Settings.unity
     guid: 178253ebe930147a4a4791d285f10424
-  - enabled: 1
-    path: Assets/Scenes/Road.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Room02.unity
     guid: d0f77572c0d204004b150f02d9f6e98b
+  - enabled: 1
+    path: Assets/Scenes/Road.unity
+    guid: a382b3b5f78944be6a0efaa55effad36
   m_configObjects: {}
