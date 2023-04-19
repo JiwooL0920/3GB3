@@ -14,7 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allLines:
   - speaker: {fileID: 11400000, guid: 4c221aa42dfc64f18b832fe1a31e3ba1, type: 2}
-    dialogue: Hello, this is a tester for option3
+    dialogue: "That\u2019s right, everyone doesn\u2019t like their jobs.\n"
   - speaker: {fileID: 11400000, guid: 221e6c0c29ce243f8963cb558f547b53, type: 2}
-    dialogue: Option3 test test test
+    dialogue: I probably don't have to do this job. I don't know what the meaning
+      of work is.
+  - speaker: {fileID: 11400000, guid: 4c221aa42dfc64f18b832fe1a31e3ba1, type: 2}
+    dialogue: "People need to work when they are alive. Your colleagues all work,
+      don\u2019t they?\n"
+  - speaker: {fileID: 11400000, guid: 221e6c0c29ce243f8963cb558f547b53, type: 2}
+    dialogue: "You\u2019re right.\n"
+  - speaker: {fileID: 11400000, guid: 4c221aa42dfc64f18b832fe1a31e3ba1, type: 2}
+    dialogue: Fine. Touch me until you don't think about this mess.
+  - speaker: {fileID: 11400000, guid: 221e6c0c29ce243f8963cb558f547b53, type: 2}
+    dialogue: ...
   allChoices: []
