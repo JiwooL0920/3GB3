@@ -115,19 +115,19 @@ public class LoadScene: MonoBehaviour
 
     public void LoadRoad2()
     {
-        SceneManager.LoadScene("Road1");
+        SceneManager.LoadScene("Road2");
         // player = GameObject.FindGameObjectWithTag("player").GetComponent<Transform>();
     }
 
     public void LoadRoad3()
     {
-        SceneManager.LoadScene("Road1");
+        SceneManager.LoadScene("Road3");
         // player = GameObject.FindGameObjectWithTag("player").GetComponent<Transform>();
     }
 
     public void LoadRoad4()
     {
-        SceneManager.LoadScene("Road1");
+        SceneManager.LoadScene("Road4");
         // player = GameObject.FindGameObjectWithTag("player").GetComponent<Transform>();
     }
 
@@ -146,6 +146,12 @@ public class LoadScene: MonoBehaviour
     public void LoadRoad7()
     {
         SceneManager.LoadScene("Road7");
+        // player = GameObject.FindGameObjectWithTag("player").GetComponent<Transform>();
+    }
+
+    public void LoadEnding()
+    {
+        SceneManager.LoadScene("Ending");
         // player = GameObject.FindGameObjectWithTag("player").GetComponent<Transform>();
     }
 
