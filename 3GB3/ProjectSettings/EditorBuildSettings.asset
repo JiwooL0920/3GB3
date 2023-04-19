@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/Combat.unity
+    path: Assets/Scenes/Combat1.unity
     guid: a69a6be4fa6bc4f468d641169a5b878a
   - enabled: 1
     path: Assets/Scenes/Room_afterwork.unity
@@ -38,7 +38,43 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/Road.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Combat2.unity
+    guid: 6e34c03b645d348fe95d63afe081fd00
+  - enabled: 1
+    path: Assets/Scenes/Combat3.unity
+    guid: 1068c6d51c45c453586311eafa557818
+  - enabled: 1
+    path: Assets/Scenes/Combat4.unity
+    guid: 928234f8cc26343b095e32969118002d
+  - enabled: 1
+    path: Assets/Scenes/Combat5.unity
+    guid: 4697615825e724a719b254f68b78fec3
+  - enabled: 1
+    path: Assets/Scenes/Combat6.unity
+    guid: 290570b2d93414bea99c0920c6117279
+  - enabled: 1
+    path: Assets/Scenes/Combat7.unity
+    guid: 8a48eb97dfcca4f439612cbac09c4467
+  - enabled: 1
+    path: Assets/Scenes/Road5.unity
+    guid: a382b3b5f78944be6a0efaa55effad36
+  - enabled: 1
+    path: Assets/Scenes/Road2.unity
+    guid: 18775d56d1b4d48c586e8f2a2dc6a809
+  - enabled: 1
+    path: Assets/Scenes/Road3.unity
+    guid: 93eea436cce0a4a91b00b345ab5fd19d
+  - enabled: 1
+    path: Assets/Scenes/Road4.unity
+    guid: 8c4d60127926f4584844c76b604f6d37
+  - enabled: 1
+    path: Assets/Scenes/Road6.unity
+    guid: 7b34f60a29eb64df997f557248a6e566
+  - enabled: 1
+    path: Assets/Scenes/Road7.unity
+    guid: f31c40b1e435744679de371a4818ef08
   m_configObjects: {}

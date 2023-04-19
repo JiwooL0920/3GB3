@@ -57,7 +57,48 @@ public class PlayerMovement : MonoBehaviour
         {
             //If the GameObject has the same tag as specified, output this message in the console
             Debug.Log("aaaaa");
-            SceneManager.LoadScene("Combat");
+            SceneManager.LoadScene("Combat1");
+        }
+
+        if (other.gameObject.tag == "Enemy2")
+        {
+            //If the GameObject has the same tag as specified, output this message in the console
+            Debug.Log("aaaaa");
+            SceneManager.LoadScene("Combat2");
+        }
+
+        if (other.gameObject.tag == "Enemy3")
+        {
+            //If the GameObject has the same tag as specified, output this message in the console
+            Debug.Log("aaaaa");
+            SceneManager.LoadScene("Combat3");
+        }
+
+        if (other.gameObject.tag == "Enemy4")
+        {
+            //If the GameObject has the same tag as specified, output this message in the console
+            Debug.Log("aaaaa");
+            SceneManager.LoadScene("Combat4");
+        }
+        if (other.gameObject.tag == "Enemy7")
+        {
+            //If the GameObject has the same tag as specified, output this message in the console
+            Debug.Log("aaaaa");
+            SceneManager.LoadScene("Combat7");
+        }
+
+        if (other.gameObject.tag == "Enemy5")
+        {
+            //If the GameObject has the same tag as specified, output this message in the console
+            Debug.Log("aaaaa");
+            SceneManager.LoadScene("Combat5");
+        }
+
+        if (other.gameObject.tag == "Enemy6")
+        {
+            //If the GameObject has the same tag as specified, output this message in the console
+            Debug.Log("aaaaa");
+            SceneManager.LoadScene("Combat6");
         }
     }
 
@@ -67,7 +108,49 @@ public class PlayerMovement : MonoBehaviour
         {
             //If the GameObject has the same tag as specified, output this message in the console
             Debug.Log("aaaaa");
-            SceneManager.LoadScene("Combat");
+            SceneManager.LoadScene("Combat1");
+        }
+
+        if (collision.gameObject.tag == "Enemy2")
+        {
+            //If the GameObject has the same tag as specified, output this message in the console
+            Debug.Log("aaaaa");
+            SceneManager.LoadScene("Combat2");
+        }
+
+        if (collision.gameObject.tag == "Enemy3")
+        {
+            //If the GameObject has the same tag as specified, output this message in the console
+            Debug.Log("aaaaa");
+            SceneManager.LoadScene("Combat3");
+        }
+
+        if (collision.gameObject.tag == "Enemy4")
+        {
+            //If the GameObject has the same tag as specified, output this message in the console
+            Debug.Log("aaaaa");
+            SceneManager.LoadScene("Combat4");
+        }
+
+        if (collision.gameObject.tag == "Enemy5")
+        {
+            //If the GameObject has the same tag as specified, output this message in the console
+            Debug.Log("aaaaa");
+            SceneManager.LoadScene("Combat5");
+        }
+
+        if (collision.gameObject.tag == "Enemy6")
+        {
+            //If the GameObject has the same tag as specified, output this message in the console
+            Debug.Log("aaaaa");
+            SceneManager.LoadScene("Combat6");
+        }
+
+        if (collision.gameObject.tag == "Enemy7")
+        {
+            //If the GameObject has the same tag as specified, output this message in the console
+            Debug.Log("aaaaa");
+            SceneManager.LoadScene("Combat7");
         }
     }
 }
