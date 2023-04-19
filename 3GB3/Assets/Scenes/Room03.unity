@@ -2202,7 +2202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9952fbc96fa7a4235bdbd0f44ed4d8b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  convo: {fileID: 11400000, guid: 043d4d1a080e44b5297632f90a57d463, type: 2}
+  convo: {fileID: 11400000, guid: 90b7cc77f6d7c4b4a8d47240ec12769d, type: 2}
   navButton: {fileID: 0}
   panel: {fileID: 0}
 --- !u!114 &1077761320
@@ -4106,7 +4106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9952fbc96fa7a4235bdbd0f44ed4d8b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  convo: {fileID: 11400000, guid: fcefc6b225f9a48b4bc68a0ab38d49be, type: 2}
+  convo: {fileID: 11400000, guid: 3f92ffeb7d72c49298e2b1ab2858f02f, type: 2}
   navButton: {fileID: 0}
   panel: {fileID: 0}
 --- !u!114 &2080169579
@@ -4261,7 +4261,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: End today
+  m_text: to road
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
