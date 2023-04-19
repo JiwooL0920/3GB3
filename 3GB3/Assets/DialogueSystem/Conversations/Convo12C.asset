@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ca6008e2f05d4d4581bb4d26e010a00, type: 3}
+  m_Name: Convo12C
+  m_EditorClassIdentifier: 
+  allLines:
+  - speaker: {fileID: 11400000, guid: 221e6c0c29ce243f8963cb558f547b53, type: 2}
+    dialogue: 'Hey, I need to talk to you about something.
+
+'
+  - speaker: {fileID: 11400000, guid: 4c221aa42dfc64f18b832fe1a31e3ba1, type: 2}
+    dialogue: "purr purr \n"
+  - speaker: {fileID: 11400000, guid: 221e6c0c29ce243f8963cb558f547b53, type: 2}
+    dialogue: 'You know I love you, right?
+
+'
+  - speaker: {fileID: 11400000, guid: 4c221aa42dfc64f18b832fe1a31e3ba1, type: 2}
+    dialogue: Sure.
+  - speaker: {fileID: 11400000, guid: 221e6c0c29ce243f8963cb558f547b53, type: 2}
+    dialogue: 'But I''ve been feeling a little paranoid lately. I don''t think I
+      can trust anyone, even you.
+
+'
+  - speaker: {fileID: 11400000, guid: 4c221aa42dfc64f18b832fe1a31e3ba1, type: 2}
+    dialogue: "Hmm. Still feeling hurt hearing this, though you\u2019ve said you
+      love me. \n"
+  - speaker: {fileID: 11400000, guid: 221e6c0c29ce243f8963cb558f547b53, type: 2}
+    dialogue: So, I just need you to promise me that you won't tell anyone anything
+      about me, okay? I'm counting on you to keep my secrets safe.
+  - speaker: {fileID: 11400000, guid: 4c221aa42dfc64f18b832fe1a31e3ba1, type: 2}
+    dialogue: 'Why, Tyra. You need any help? Have you contacted DCBW?
+
+'
+  - speaker: {fileID: 11400000, guid: 221e6c0c29ce243f8963cb558f547b53, type: 2}
+    dialogue: "Gosh, don\u2019t be serious. Just kidding. Just one thing, a friend
+      of mine, my partner from work, he told me his dog looks suspicious, the dog
+      knows everything. \n"
+  - speaker: {fileID: 11400000, guid: 4c221aa42dfc64f18b832fe1a31e3ba1, type: 2}
+    dialogue: "so what he\u2019s gonna do. \n"
+  - speaker: {fileID: 11400000, guid: 221e6c0c29ce243f8963cb558f547b53, type: 2}
+    dialogue: "kill the dog. Promise me you won\u2019t tell anyone. \n"
+  - speaker: {fileID: 11400000, guid: 4c221aa42dfc64f18b832fe1a31e3ba1, type: 2}
+    dialogue: "sorry to hear that. I never leave the room, you know it. \n"
+  allChoices: []
