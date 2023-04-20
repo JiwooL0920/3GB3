@@ -116,7 +116,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Room14.unity
     guid: 292f8bcdd79b54ac6bf6aa1d3215d441
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Ending.unity
     guid: 077e89552a5eb461d815e2e9bfd9690d
+  - enabled: 1
+    path: Assets/Scenes/EndingScene.unity
+    guid: 55cd78367d7234c3dba0e0444fdc6d05
   m_configObjects: {}

@@ -151,7 +151,7 @@ public class LoadScene: MonoBehaviour
 
     public void LoadEnding()
     {
-        SceneManager.LoadScene("Ending");
+        SceneManager.LoadScene("EndingScene");
         // player = GameObject.FindGameObjectWithTag("player").GetComponent<Transform>();
     }
 
